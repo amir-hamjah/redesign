@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(./font/LogoYouLongTime\ W00\ Medium.ttf);
+    font-family: logo;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 45px;
+    background: #36758E;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 45px;
+    font-family: 'Roboto';
+}
+
+.header_left {
+    text-indent: 25px;
+}
+
+.add-notes {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 7%;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 15px;
+    padding: 5px;
+    position: absolute;
+}
+
+.main {
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+
+.left {
+    width: 20%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background: #36758E;
+    border-top-left-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.center {
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background: #fff;
+}
+
+.right {
+    width: 20%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    background: #fff;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+}
+
+.address_head {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.header_center {
+    text-indent: 110px;
+    color: #fff;
+}
+
+.header_right ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+.header_right ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+.header_right ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_right ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation {
+    height: 130px;
+    line-height: 90px;
+    background: rgb(241, 241, 241);
+    box-shadow: 0 0 5px rgb(243, 243, 243);
+}
+
+.navbar {
+    width: 100%;
+    text-align: right;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 40px;
+    font-size: 70px;
+    letter-spacing: -16px;
+    font-family: logo;
+}
+
+.d {
+    color: #a1a1a1;
+}
+
+.r {
+    color: #000;
+}
+
+.s {
+    color: #a1a1a1;
+}
+
+.slogan {
+    margin-top: -50px;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.pin {
+    font-size: 20px;
+}
+
+.social {
+    text-align: left;
+    line-height: 120px;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background: url(../Images/lycs-architecture-U2BI3GMnSSE-unsplash.jpg) no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table {
+    width: 100%;
+    height: auto;
+    background: no-repeat center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.table-head {
+    width: 100%;
+    padding: 10px;
+    background: #36758E;
+    color: #fff;
+}
+
+.table-body {
+    background: rgb(230, 230, 230);
+    height: 55px;
+    line-height: 50px;
+}
+
+.table-body2 {
+    background: #fff;
+    height: 55px;
+    line-height: 50px;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgb(58, 154, 233);
+    padding: 50px 0;
+    box-sizing: content-box;
+}
+
+.imagex {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid rgb(0, 104, 165);
+}
+
+.slider h1 {
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h1 {
+    letter-spacing: -5px;
+}
+
+.f {
+    text-align: left;
+    padding-left: 10%;
+}
